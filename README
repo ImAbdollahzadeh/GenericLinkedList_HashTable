@@ -1,8 +1,8 @@
-# This application uses both heavily templated classes and functions as well as dynamically allocations and run-time 
-features in order to create very efficient and fast generic containers for user inputs.
+# This application uses both "heavily templated classes and functions" as well as "dynamically allocations and run-time 
+features" in order to create very efficient and fast generic containers for user inputs.
 
 # The heart of the the program is based on creating recursively generic nodes and doubly linkeing them. 
 This is mainoy done based on template metaprogramming techniques.
 
-# The program not only accepts built-in C++ types as user input, but also any kind of complicated user-defined types too, 
-which make it very unique and
+# The program not only accepts built-in C++ types as user input, but also any kind of the complicated user-defined types too, 
+which make it very unique and general.
