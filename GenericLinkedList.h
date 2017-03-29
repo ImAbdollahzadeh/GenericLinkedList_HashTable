@@ -9,11 +9,11 @@
 	};
 	template<typename T, typename U> struct SameType
 	{
-		static const bool result = false;
+		static constexpr bool result = false;
 	};
 	template<typename T> struct SameType<T, T>
 	{
-		static const bool result = true;
+		static constexpr bool result = true;
 	};
 	struct ID
 	{
