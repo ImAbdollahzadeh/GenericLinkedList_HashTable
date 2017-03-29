@@ -19,13 +19,13 @@
 	{
 		enum class _ID
 		{
-			INT,
-			FLOAT,
-			CHAR,
-			DOUBLE,
-			BOOL,
-			STRING,
-			INT_VECTOR,
+			INT           ,
+			FLOAT         ,
+			CHAR          ,
+			DOUBLE        ,
+			BOOL          ,
+			STRING        ,
+			INT_VECTOR    ,
 			ANY_THING_ELSE,
 		};
 		static int EnumToInt(const _ID& enumerationIDs);
